@@ -3,10 +3,11 @@
 int main() {
     int codigodacidade, pontosturisticos;
     float populacao, area;
-    char nomedacidade[50];
+    char nomedacidade[100];
     
     printf("Digite o nome da cidade:\n");
-    scanf("%s", &nomedacidade);
+    scanf("%s", nomedacidade); 
+    // Colocar múltiplas palavras nessa parte quebra o código completamente, não conseguir achar a solução do problema
     printf("Digite o código da cidade:\n");
     scanf("%d", &codigodacidade);
     printf("Digite o número de pontos turísticos da cidade:\n");
