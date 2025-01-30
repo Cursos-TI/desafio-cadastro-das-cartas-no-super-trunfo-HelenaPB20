@@ -18,7 +18,7 @@ int main() {
 
     printf("Carregando dados...\n");
     printf("Nome da Cidade: %s - Código da Cidade: %d\n", nomedacidade, codigodacidade);
-    printf("Número de pontos turísticos:%d\n", pontosturisticos);
+    printf("Número de pontos turísticos: %d\n", pontosturisticos);
     printf("População: %f - Área: %f", populacao, area);
 
     return 0;
